@@ -23,6 +23,14 @@ public class cameraIn: MonoBehaviour
         {
             transform.Translate(new Vector3(0, 0, -speed * Time.deltaTime));
         }
+        if (Input.GetKey(KeyCode.RightShift))
+        {
+            transform.Translate(new Vector3(0, speed * Time.deltaTime, 0));
+        }
+        if (Input.GetKey(KeyCode.RightControl))
+        {
+            transform.Translate(new Vector3(0, -speed * Time.deltaTime, 0));
+        }
     }
 }
 
