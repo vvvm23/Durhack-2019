@@ -3,8 +3,9 @@ using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.SceneManagement;
 
-public class openJenga : MonoBehaviour
+public class openFile : MonoBehaviour
 {
+    public string fileName = "Juggling";
     public bool enter = true;
     public bool stay = true;
     public bool exit = true;
@@ -39,7 +40,7 @@ public class openJenga : MonoBehaviour
         if (exit)
         {
             Debug.Log("exit");
-            SceneManager.LoadScene("JENGA");
+            SceneManager.LoadScene(fileName);
         }
     }
 }
