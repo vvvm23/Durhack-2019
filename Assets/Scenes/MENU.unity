@@ -267,28 +267,6 @@ PrefabInstance:
     - {fileID: 11406336, guid: b9c7aaf0d314cb847a3b2a20e893f1b6, type: 3}
     - {fileID: 11471522, guid: b9c7aaf0d314cb847a3b2a20e893f1b6, type: 3}
   m_SourcePrefab: {fileID: 100100000, guid: b9c7aaf0d314cb847a3b2a20e893f1b6, type: 3}
---- !u!1 &475243255 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1316441347922610, guid: df84af96020c94b4695aec5c3427db16,
-    type: 3}
-  m_PrefabInstance: {fileID: 1032519774}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &475243260
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 475243255}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4f18575da107a84c800cec45021c7a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fileName: JENGA
-  enter: 1
-  stay: 1
-  exit: 1
 --- !u!114 &525709306 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 11407378, guid: 869d20cdda15af24aab9e72b5f2eec78,
@@ -1412,7 +1390,7 @@ PrefabInstance:
     m_Modifications:
     - target: {fileID: 4493201980653798, guid: df84af96020c94b4695aec5c3427db16, type: 3}
       propertyPath: m_LocalPosition.x
-      value: 0.184
+      value: 0.377
       objectReference: {fileID: 0}
     - target: {fileID: 4493201980653798, guid: df84af96020c94b4695aec5c3427db16, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3463,7 +3441,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4493201980653798, guid: df84af96020c94b4695aec5c3427db16, type: 3}
       propertyPath: m_LocalPosition.x
-      value: -0.176
+      value: -0.334
       objectReference: {fileID: 0}
     - target: {fileID: 4493201980653798, guid: df84af96020c94b4695aec5c3427db16, type: 3}
       propertyPath: m_LocalPosition.y
@@ -3532,34 +3510,12 @@ Transform:
     type: 3}
   m_PrefabInstance: {fileID: 1734857135}
   m_PrefabAsset: {fileID: 0}
---- !u!1 &1734857137 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1316441347922610, guid: df84af96020c94b4695aec5c3427db16,
-    type: 3}
-  m_PrefabInstance: {fileID: 1734857135}
-  m_PrefabAsset: {fileID: 0}
 --- !u!1 &1734857138 stripped
 GameObject:
   m_CorrespondingSourceObject: {fileID: 1329088948137194, guid: df84af96020c94b4695aec5c3427db16,
     type: 3}
   m_PrefabInstance: {fileID: 1734857135}
   m_PrefabAsset: {fileID: 0}
---- !u!114 &1734857139
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1734857137}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: e4f18575da107a84c800cec45021c7a8, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  fileName: Juggling
-  enter: 1
-  stay: 1
-  exit: 1
 --- !u!114 &1734857140
 MonoBehaviour:
   m_ObjectHideFlags: 0
