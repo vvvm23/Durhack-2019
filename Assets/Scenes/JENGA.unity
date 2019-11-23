@@ -148,7 +148,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 5
+  m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &198409650
 GameObject:
@@ -240,7 +240,7 @@ Transform:
   m_LocalScale: {x: 16.32027, y: 0.99948, z: 0.99948}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 10
+  m_RootOrder: 9
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1001 &320940790
 PrefabInstance:
@@ -418,11 +418,11 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 426840606}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.952, y: 2.16, z: 1.464}
+  m_LocalPosition: {x: -1.019, y: 2.15, z: 1.395}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 12
+  m_RootOrder: 11
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!114 &525709306 stripped
 MonoBehaviour:
@@ -1362,7 +1362,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 4822923098130148, guid: 33edf201cbc6fe645ad9078697cd2aea, type: 3}
       propertyPath: m_RootOrder
-      value: 4
+      value: 3
       objectReference: {fileID: 0}
     - target: {fileID: 4822923098130148, guid: 33edf201cbc6fe645ad9078697cd2aea, type: 3}
       propertyPath: m_LocalEulerAnglesHint.x
@@ -1375,6 +1375,11 @@ PrefabInstance:
     - target: {fileID: 4822923098130148, guid: 33edf201cbc6fe645ad9078697cd2aea, type: 3}
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 23686738056710094, guid: 33edf201cbc6fe645ad9078697cd2aea,
+        type: 3}
+      propertyPath: m_Enabled
+      value: 1
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 33edf201cbc6fe645ad9078697cd2aea, type: 3}
@@ -1417,7 +1422,7 @@ Transform:
   - {fileID: 600235467}
   - {fileID: 721871854}
   m_Father: {fileID: 0}
-  m_RootOrder: 6
+  m_RootOrder: 5
   m_LocalEulerAnglesHint: {x: -0.080000006, y: -175.49301, z: 1.016}
 --- !u!114 &1325830796
 MonoBehaviour:
@@ -2978,7 +2983,7 @@ Transform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 7
+  m_RootOrder: 6
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &1391039677 stripped
 GameObject:
@@ -3140,7 +3145,7 @@ Transform:
   m_LocalScale: {x: 16.32027, y: 0.99948, z: 0.99948}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 9
+  m_RootOrder: 8
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1001 &1555061049
 PrefabInstance:
@@ -3277,7 +3282,7 @@ Transform:
   m_LocalScale: {x: 16.32027, y: 0.99948, z: 0.99948}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 11
+  m_RootOrder: 10
   m_LocalEulerAnglesHint: {x: 0, y: 90, z: 0}
 --- !u!1 &1679615962
 GameObject:
@@ -3369,7 +3374,7 @@ Transform:
   m_LocalScale: {x: 16.32027, y: 0.99948, z: 0.99948}
   m_Children: []
   m_Father: {fileID: 0}
-  m_RootOrder: 8
+  m_RootOrder: 7
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!4 &1724240782 stripped
 Transform:
@@ -3632,78 +3637,3 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 1
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1001 &6398155522389323444
-PrefabInstance:
-  m_ObjectHideFlags: 0
-  serializedVersion: 2
-  m_Modification:
-    m_TransformParent: {fileID: 0}
-    m_Modifications:
-    - target: {fileID: 6399418340675017152, guid: 4902b3c6a03036641b6e3f3da246023b,
-        type: 3}
-      propertyPath: m_Name
-      value: Jenga Brick
-      objectReference: {fileID: 0}
-    - target: {fileID: 6396684359485244302, guid: 4902b3c6a03036641b6e3f3da246023b,
-        type: 3}
-      propertyPath: m_LocalPosition.x
-      value: -1.0078201
-      objectReference: {fileID: 0}
-    - target: {fileID: 6396684359485244302, guid: 4902b3c6a03036641b6e3f3da246023b,
-        type: 3}
-      propertyPath: m_LocalPosition.y
-      value: 2.389
-      objectReference: {fileID: 0}
-    - target: {fileID: 6396684359485244302, guid: 4902b3c6a03036641b6e3f3da246023b,
-        type: 3}
-      propertyPath: m_LocalPosition.z
-      value: 1.3483896
-      objectReference: {fileID: 0}
-    - target: {fileID: 6396684359485244302, guid: 4902b3c6a03036641b6e3f3da246023b,
-        type: 3}
-      propertyPath: m_LocalRotation.x
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6396684359485244302, guid: 4902b3c6a03036641b6e3f3da246023b,
-        type: 3}
-      propertyPath: m_LocalRotation.y
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6396684359485244302, guid: 4902b3c6a03036641b6e3f3da246023b,
-        type: 3}
-      propertyPath: m_LocalRotation.z
-      value: -0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6396684359485244302, guid: 4902b3c6a03036641b6e3f3da246023b,
-        type: 3}
-      propertyPath: m_LocalRotation.w
-      value: 1
-      objectReference: {fileID: 0}
-    - target: {fileID: 6396684359485244302, guid: 4902b3c6a03036641b6e3f3da246023b,
-        type: 3}
-      propertyPath: m_RootOrder
-      value: 3
-      objectReference: {fileID: 0}
-    - target: {fileID: 6396684359485244302, guid: 4902b3c6a03036641b6e3f3da246023b,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.x
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6396684359485244302, guid: 4902b3c6a03036641b6e3f3da246023b,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.y
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6396684359485244302, guid: 4902b3c6a03036641b6e3f3da246023b,
-        type: 3}
-      propertyPath: m_LocalEulerAnglesHint.z
-      value: 0
-      objectReference: {fileID: 0}
-    - target: {fileID: 6350663765561635414, guid: 4902b3c6a03036641b6e3f3da246023b,
-        type: 3}
-      propertyPath: m_Material
-      value: 
-      objectReference: {fileID: 13400000, guid: 37b1f9135ed80e5438922256002328c6,
-        type: 2}
-    m_RemovedComponents: []
-  m_SourcePrefab: {fileID: 100100000, guid: 4902b3c6a03036641b6e3f3da246023b, type: 3}
