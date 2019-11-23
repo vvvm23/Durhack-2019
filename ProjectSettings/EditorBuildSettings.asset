@@ -4,5 +4,11 @@
 EditorBuildSettings:
   m_ObjectHideFlags: 0
   serializedVersion: 2
-  m_Scenes: []
+  m_Scenes:
+  - enabled: 1
+    path: Assets/Scenes/MENU.unity
+    guid: 0dabf8b783297a846b8b256a686998cf
+  - enabled: 1
+    path: Assets/Scenes/JENGA.unity
+    guid: 0bf8ef31be87cdb4890c3ad80e0d4c3c
   m_configObjects: {}
