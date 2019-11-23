@@ -24,18 +24,25 @@ public class createTower : MonoBehaviour
         float brickY = 0.07f;
         float brickX = 0.1f;
         float brickZ = 0.3f;
+        float epsilon = 0.01f;
         Vector3 currentPos = transform.position;
         int currentAngle = 0;
         for(int i=0; i<numBlocks/3; i++)
         {
-            Quaternion currentRot = Quaternion.Euler(currentAngle, 0, 0);
-            currentAngle += 90;
-            Instantiate(block, currentPos, Quaternion.identity);
-            currentPos = currentPos + new Vector3(brickX, 0, 0);
-            Instantiate(block, currentPos, Quaternion.identity);
-            currentPos = currentPos + new Vector3(brickX, 0, 0);
+            Quaternion currentRot = Quaternion.Euler(0, currentAngle, 0);
+            if(currentAngle == 90)
+            {
+                currentAngle = 0;
+            } else
+            {
+                currentAngle = 90;
+            }
             Instantiate(block, currentPos, currentRot);
-            currentPos = currentPos + new Vector3(-2*brickX, brickY, 0);
+            currentPos = currentPos + new Vector3(brickX + epsilon, 0, 0);
+            Instantiate(block, currentPos, currentRot);
+            currentPos = currentPos + new Vector3(brickX + epsilon, 0, 0);
+            Instantiate(block, currentPos, currentRot);
+            currentPos = currentPos + new Vector3(-2*(brickX + epsilon), brickY + epsilon, 0);
 
 
         }
