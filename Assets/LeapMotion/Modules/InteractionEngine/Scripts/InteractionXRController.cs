@@ -6,7 +6,7 @@
  * https://developer.leapmotion.com/sdk_agreement, or another agreement       *
  * between Leap Motion and you, your company or other organization.           *
  ******************************************************************************/
-
+ //added this comment so i changed something so i could push a commit to correct my spelling mistake
 using Leap.Unity.Attributes;
 
 #if UNITY_2017_2_OR_NEWER
