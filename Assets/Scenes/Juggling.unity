@@ -382,6 +382,36 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: b720daf7f422c4710ab63742ada8ead0, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &329935614
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 329935612}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f10fa40360571247a7ca806d6859557, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _manager: {fileID: 0}
+  _ignoreHoverMode: 0
+  _isIgnoringAllHoverState: 0
+  _ignorePrimaryHover: 0
+  _ignoreContact: 0
+  _ignoreGrasping: 0
+  _contactForceMode: 0
+  _allowMultiGrasp: 0
+  _moveObjectWhenGrasped: 1
+  graspedMovementType: 0
+  _overrideInteractionLayer: 0
+  _interactionLayer:
+    layerIndex: 0
+  _overrideNoContactLayer: 0
+  _noContactLayer:
+    layerIndex: 0
+  _eventTable:
+    _entries: []
 --- !u!114 &525709306 stripped
 MonoBehaviour:
   m_CorrespondingSourceObject: {fileID: 11407378, guid: 869d20cdda15af24aab9e72b5f2eec78,
@@ -2564,7 +2594,7 @@ PrefabInstance:
     - target: {fileID: 114805490048860276, guid: 5a1fb53528997fe478560ab3120da9cb,
         type: 3}
       propertyPath: _interactionLayer.layerIndex
-      value: 8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114805490048860276, guid: 5a1fb53528997fe478560ab3120da9cb,
         type: 3}
@@ -2574,10 +2604,46 @@ PrefabInstance:
     - target: {fileID: 114805490048860276, guid: 5a1fb53528997fe478560ab3120da9cb,
         type: 3}
       propertyPath: _noContactLayer.layerIndex
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a1fb53528997fe478560ab3120da9cb, type: 3}
+--- !u!1 &1680719727 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1876345102506344, guid: 5a1fb53528997fe478560ab3120da9cb,
+    type: 3}
+  m_PrefabInstance: {fileID: 1680719726}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1680719728
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1680719727}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f10fa40360571247a7ca806d6859557, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _manager: {fileID: 0}
+  _ignoreHoverMode: 0
+  _isIgnoringAllHoverState: 0
+  _ignorePrimaryHover: 0
+  _ignoreContact: 0
+  _ignoreGrasping: 0
+  _contactForceMode: 0
+  _allowMultiGrasp: 0
+  _moveObjectWhenGrasped: 1
+  graspedMovementType: 0
+  _overrideInteractionLayer: 0
+  _interactionLayer:
+    layerIndex: 0
+  _overrideNoContactLayer: 0
+  _noContactLayer:
+    layerIndex: 0
+  _eventTable:
+    _entries: []
 --- !u!4 &1724240782 stripped
 Transform:
   m_CorrespondingSourceObject: {fileID: 464466, guid: 869d20cdda15af24aab9e72b5f2eec78,
@@ -2883,7 +2949,7 @@ PrefabInstance:
     - target: {fileID: 114805490048860276, guid: 5a1fb53528997fe478560ab3120da9cb,
         type: 3}
       propertyPath: _interactionLayer.layerIndex
-      value: 8
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114805490048860276, guid: 5a1fb53528997fe478560ab3120da9cb,
         type: 3}
@@ -2893,7 +2959,7 @@ PrefabInstance:
     - target: {fileID: 114805490048860276, guid: 5a1fb53528997fe478560ab3120da9cb,
         type: 3}
       propertyPath: _noContactLayer.layerIndex
-      value: 10
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 114805490048860276, guid: 5a1fb53528997fe478560ab3120da9cb,
         type: 3}
@@ -2902,3 +2968,39 @@ PrefabInstance:
       objectReference: {fileID: 961227430}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 5a1fb53528997fe478560ab3120da9cb, type: 3}
+--- !u!1 &2134326602 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 1876345102506344, guid: 5a1fb53528997fe478560ab3120da9cb,
+    type: 3}
+  m_PrefabInstance: {fileID: 2134326601}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &2134326603
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2134326602}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f10fa40360571247a7ca806d6859557, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  _manager: {fileID: 0}
+  _ignoreHoverMode: 0
+  _isIgnoringAllHoverState: 0
+  _ignorePrimaryHover: 0
+  _ignoreContact: 0
+  _ignoreGrasping: 0
+  _contactForceMode: 0
+  _allowMultiGrasp: 0
+  _moveObjectWhenGrasped: 1
+  graspedMovementType: 0
+  _overrideInteractionLayer: 0
+  _interactionLayer:
+    layerIndex: 0
+  _overrideNoContactLayer: 0
+  _noContactLayer:
+    layerIndex: 0
+  _eventTable:
+    _entries: []
