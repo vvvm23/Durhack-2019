@@ -19,7 +19,10 @@ public class createTower : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        
+        if (Input.GetKey(KeyCode.R))
+        {
+            buildTower();
+        }
     }
 
     void buildTower()
